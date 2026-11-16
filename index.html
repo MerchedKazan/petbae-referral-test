@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PetBae referral test</title>
+<style>
+  body{font-family:system-ui,sans-serif;max-width:480px;margin:0 auto;padding:24px 16px;color:#1b2a3a;background:#fff}
+  h1{font-size:20px}
+  a.btn{display:block;text-align:center;padding:16px;margin:12px 0;border-radius:12px;background:#2f6fde;color:#fff;font-weight:600;text-decoration:none;font-size:17px}
+  a.alt{background:#e8eef9;color:#2f6fde}
+  ol{padding-left:20px;line-height:1.6}
+  code{background:#f2f4f7;padding:2px 4px;border-radius:4px}
+</style>
+</head>
+<body>
+<h1>PetBae referral link test (Android)</h1>
+<ol>
+  <li>Install the latest PetBae build from Play internal testing.</li>
+  <li>Open the app, select the <b>Demo</b> environment, and make sure you are <b>logged out</b>.</li>
+  <li>Come back here and tap the button below.</li>
+</ol>
+<a class="btn" href="intent://sitter/farah-24?ref=FARARG#Intent;scheme=petbae;package=com.petbae.app;end">Open Farah's referral link in PetBae</a>
+<a class="btn alt" href="petbae://sitter/farah-24?ref=FARARG">Try this if the first button does nothing</a>
+<p>Expected: the app opens on owner sign-up with the referral banner. After sign-up and adding a pet, the AED 50 offer appears at checkout for sitter bookings of AED 200 or more.</p>
+<p>Same as: <code>https://petbae-react.chkdemo.com/sitter/farah-24?ref=FARARG</code></p>
+</body>
+</html>
